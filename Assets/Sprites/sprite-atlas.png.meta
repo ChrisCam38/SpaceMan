@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7ea863ad9a7477e4c9b0851b6cc83dd9
+guid: 6cbea92a3dc9a4b428cf4bb0c8f8a19e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -137,20 +137,20 @@ TextureImporter:
         width: 46
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 595125c8baa3ba14f92f111b7635cc26
-      internalID: 444466414
+      spriteID: bb26be70ae2257d43b711a28c0f35b0d
+      internalID: -1115184714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_1
+      name: die-1
       rect:
         serializedVersion: 2
         x: 218
@@ -158,35 +158,35 @@ TextureImporter:
         width: 204
         height: 279
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 930b395ff3171a941bf8e2ab9fe3d59c
-      internalID: 1727076286
+      spriteID: 1a3f1314f52a5ea40bcbe9b89de5cf82
+      internalID: 1630044779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_2
+      name: die-2
       rect:
         serializedVersion: 2
         x: 448
-        y: 2403
+        y: 2407
         width: 286
         height: 204
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be9e2c226812a224cb2c95ea2ef718c4
-      internalID: 1556088759
+      spriteID: dea2afa3024d2d848af37028f8dd109a
+      internalID: 1200693398
       vertices: []
       indices: 
       edges: []
@@ -200,14 +200,14 @@ TextureImporter:
         width: 46
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55a3dc02b39dc3a44a73daffb2a29015
-      internalID: -330439771
+      spriteID: e651e6743163d3d41a691fa0670a4da6
+      internalID: -536451050
       vertices: []
       indices: 
       edges: []
@@ -221,20 +221,20 @@ TextureImporter:
         width: 47
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17f4d7415043f5e4cbcaf65ccdd5f9c9
-      internalID: 1476878024
+      spriteID: d66af73abdec43646830a886be8fc274
+      internalID: 689373655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_5
+      name: die-3
       rect:
         serializedVersion: 2
         x: 783
@@ -242,14 +242,14 @@ TextureImporter:
         width: 316
         height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa6bd1353e27dd146961cd96ecdead2c
-      internalID: -1633572656
+      spriteID: 7591aaeb997513546a61c88a4ec1fab5
+      internalID: -1810418280
       vertices: []
       indices: 
       edges: []
@@ -263,14 +263,14 @@ TextureImporter:
         width: 46
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05b698e4fe255054bba1a747f6205a21
-      internalID: -1008199097
+      spriteID: e8bf13c5ae12e26479b2c115cddddbe9
+      internalID: 717045795
       vertices: []
       indices: 
       edges: []
@@ -284,14 +284,14 @@ TextureImporter:
         width: 47
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dbc55f301a5da744ac4c60e1c7c6db9
-      internalID: -342762819
+      spriteID: c9b8efe3e9858054481603d36613437e
+      internalID: -1000006512
       vertices: []
       indices: 
       edges: []
@@ -305,14 +305,14 @@ TextureImporter:
         width: 46
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f04a46feee06444db6a6a3f5474daf7
-      internalID: 1155280144
+      spriteID: 60d21408f900fc547a9053aeae16111e
+      internalID: 1387805336
       vertices: []
       indices: 
       edges: []
@@ -326,20 +326,20 @@ TextureImporter:
         width: 47
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76fc0f30a55f77c4ca4226039b52bdab
-      internalID: 375836276
+      spriteID: fa7e5b3161b9ceb4da79feef7804292c
+      internalID: 118822571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_10
+      name: jump-1
       rect:
         serializedVersion: 2
         x: 81
@@ -347,20 +347,20 @@ TextureImporter:
         width: 217
         height: 298
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35facef3814c9d746b286e803cfccbc4
-      internalID: 1529249170
+      spriteID: 4ae0837b607f5224886e98bfd82eeccd
+      internalID: 1352898999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_11
+      name: jump-2
       rect:
         serializedVersion: 2
         x: 337
@@ -368,20 +368,20 @@ TextureImporter:
         width: 202
         height: 284
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a614d18c028756d4691d9c99ab436f5f
-      internalID: 431819494
+      spriteID: f71777fb3d0f9ee4882b84ac7ae3b8cf
+      internalID: 720557231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_12
+      name: jump-3
       rect:
         serializedVersion: 2
         x: 605
@@ -389,41 +389,41 @@ TextureImporter:
         width: 161
         height: 322
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 364b82524b0a1964f81807f193c6fb62
-      internalID: 152095873
+      spriteID: 19b0305dce6a2684c8dcdbb98e28dceb
+      internalID: 1314101973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_13
+      name: jump-4
       rect:
         serializedVersion: 2
-        x: 818
-        y: 2052
+        x: 822
+        y: 2056
         width: 169
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0f7c6da8e2177a4ea0cd40aca804755
-      internalID: 2019533995
+      spriteID: cad525b2d41081f43a00b2c880f674f4
+      internalID: -129671538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_14
+      name: jump-5
       rect:
         serializedVersion: 2
         x: 1050
@@ -431,20 +431,20 @@ TextureImporter:
         width: 160
         height: 273
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82af2b7a1af16cd43a374839b8320bfb
-      internalID: -1185869899
+      spriteID: 9e7eea89a10e03342a0f9745aad050b9
+      internalID: -1013402489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_15
+      name: jump-6
       rect:
         serializedVersion: 2
         x: 1246
@@ -452,20 +452,20 @@ TextureImporter:
         width: 161
         height: 321
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 986f7464c3881114c9ef890dd25bad54
-      internalID: -1373214152
+      spriteID: 6ce48502343b6f3479065d50e1e03ca3
+      internalID: 1853624568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_16
+      name: enemy-1
       rect:
         serializedVersion: 2
         x: 1531
@@ -473,14 +473,14 @@ TextureImporter:
         width: 279
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eca6679838185a4fa816245852d1603
-      internalID: 240673214
+      spriteID: cdad50402843e6a45b2d6166ab1f295c
+      internalID: -1819195843
       vertices: []
       indices: 
       edges: []
@@ -494,20 +494,20 @@ TextureImporter:
         width: 16
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 733176dd0559a2441a41d53ce849f8d8
-      internalID: -113237528
+      spriteID: 2b802dbda374c734d8fa53211b55871b
+      internalID: -1244994584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_18
+      name: run-1
       rect:
         serializedVersion: 2
         x: 85
@@ -515,20 +515,20 @@ TextureImporter:
         width: 202
         height: 284
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27f8d3da34971214ab6c4282c9a16692
-      internalID: -1799058529
+      spriteID: b0345aaae5e55d34088dc1d4be967d98
+      internalID: -743822830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_19
+      name: run-2
       rect:
         serializedVersion: 2
         x: 349
@@ -536,20 +536,20 @@ TextureImporter:
         width: 170
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 385c5180573c48e49bfc0d01fe4ced04
-      internalID: 1169049624
+      spriteID: f7851410d85d8444aac04a7a17d627fd
+      internalID: 454438189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_20
+      name: run-3
       rect:
         serializedVersion: 2
         x: 548
@@ -557,20 +557,20 @@ TextureImporter:
         width: 159
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1a486ae389aea34f84c06fddd2fcbdd
-      internalID: -1415268082
+      spriteID: 3a5104e38563f2743aad3e902c986984
+      internalID: -501308238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_21
+      name: run-4
       rect:
         serializedVersion: 2
         x: 759
@@ -578,20 +578,20 @@ TextureImporter:
         width: 144
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf46e3dc98566684382d28746c2e675f
-      internalID: -1407177761
+      spriteID: 41b5f0374c4361e48a6b890f0aab662a
+      internalID: -1264770840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_22
+      name: run-5
       rect:
         serializedVersion: 2
         x: 952
@@ -599,20 +599,20 @@ TextureImporter:
         width: 167
         height: 291
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6ae6bfe1f2e74b49b5ca7c885319a13
-      internalID: 148512834
+      spriteID: 6528adec1c96cef4dae3d749697d59a7
+      internalID: 1818129840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_23
+      name: rock-1
       rect:
         serializedVersion: 2
         x: 1334
@@ -620,20 +620,20 @@ TextureImporter:
         width: 127
         height: 229
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60edea22c04f79746b18b4736451b21f
-      internalID: 353637562
+      spriteID: 811a2c78323ab984c8365c03284a519a
+      internalID: 1265100085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_24
+      name: enemy-2
       rect:
         serializedVersion: 2
         x: 1531
@@ -641,20 +641,20 @@ TextureImporter:
         width: 297
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8a559d92120468439284e684760f370
-      internalID: -580162193
+      spriteID: e65ada51c38778642b5c80f5f5bfd811
+      internalID: 820579471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_25
+      name: enemy-3
       rect:
         serializedVersion: 2
         x: 1531
@@ -662,20 +662,20 @@ TextureImporter:
         width: 291
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92a8560febb48274ba83c6cb2b6a9329
-      internalID: 1040544902
+      spriteID: 3cf44cf7c4e0a4e45898b86b34cb10a0
+      internalID: -6246047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_26
+      name: coin-1
       rect:
         serializedVersion: 2
         x: 92
@@ -683,20 +683,20 @@ TextureImporter:
         width: 117
         height: 118
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d680c53d8a3527e4fadfffdcc189b8ac
-      internalID: -649510650
+      spriteID: b560b9a5a28b96b43b076ce1ff94b247
+      internalID: 88971109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_27
+      name: coin-2
       rect:
         serializedVersion: 2
         x: 242
@@ -704,20 +704,20 @@ TextureImporter:
         width: 116
         height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d49ab91d1a308e4997587100b6b8701
-      internalID: -1323882595
+      spriteID: 14baba31ba313dd48b77259a429b6983
+      internalID: 1126237370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_28
+      name: coin-3
       rect:
         serializedVersion: 2
         x: 388
@@ -725,20 +725,20 @@ TextureImporter:
         width: 90
         height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fbf0755768b24048a8a482111b0439c
-      internalID: -648901931
+      spriteID: a44cd33f40864d040a5271b2ae74aa09
+      internalID: -1226887620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_29
+      name: coin-4
       rect:
         serializedVersion: 2
         x: 534
@@ -746,20 +746,20 @@ TextureImporter:
         width: 68
         height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 830f21b31621c914a878b888fc5007dc
-      internalID: -939980564
+      spriteID: c55e772eb290ba449b07d0d4acb5cd08
+      internalID: 149797552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_30
+      name: coin-5
       rect:
         serializedVersion: 2
         x: 693
@@ -767,20 +767,20 @@ TextureImporter:
         width: 27
         height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bea203c693255cf47b64601653310ffe
-      internalID: 115238752
+      spriteID: 0d2ce89af95e0cb49a8b4ac95fffd29d
+      internalID: 280355095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_31
+      name: coin-6
       rect:
         serializedVersion: 2
         x: 780
@@ -788,20 +788,20 @@ TextureImporter:
         width: 68
         height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c32bbfaf9c4c4df488b9609c43ffeb95
-      internalID: 1340173249
+      spriteID: 65103e7389611044b88a3ee368572d16
+      internalID: -695229241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_32
+      name: coin-7
       rect:
         serializedVersion: 2
         x: 900
@@ -809,20 +809,20 @@ TextureImporter:
         width: 90
         height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89e2da40363add74cb0b5f3966c2d13f
-      internalID: 2116363041
+      spriteID: 94ca6ef062c4c7a488c8e7326980ca2e
+      internalID: -2022452763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_33
+      name: coin-8
       rect:
         serializedVersion: 2
         x: 1025
@@ -830,20 +830,20 @@ TextureImporter:
         width: 116
         height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 803297bbe2225f54ea4a47fba7082406
-      internalID: -2095850790
+      spriteID: fd008a1bf441dab47acca1a8641d591a
+      internalID: 399688457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_34
+      name: poison
       rect:
         serializedVersion: 2
         x: 1201
@@ -851,20 +851,20 @@ TextureImporter:
         width: 76
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fde0bff7676ea2d4b92c05de1cd5c168
-      internalID: -24443149
+      spriteID: 6f950ba532e876c439e630f1d93c5550
+      internalID: -655973825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_35
+      name: rock-3
       rect:
         serializedVersion: 2
         x: 1324
@@ -872,20 +872,20 @@ TextureImporter:
         width: 91
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb7766ef9d16a4e498f1903073da4671
-      internalID: -567141928
+      spriteID: a51e49e1a8b2fff4595bbb4f3cf27c92
+      internalID: -1770271094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_36
+      name: rock-2
       rect:
         serializedVersion: 2
         x: 1441
@@ -893,20 +893,20 @@ TextureImporter:
         width: 179
         height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49fb4c443d9ea22479fc4ab9443661bd
-      internalID: -999506168
+      spriteID: fb06d220b53adda49992d1977e8ebad7
+      internalID: 1149403642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_37
+      name: background
       rect:
         serializedVersion: 2
         x: 80
@@ -914,20 +914,20 @@ TextureImporter:
         width: 1777
         height: 898
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 743cf38de320fe54cbdc3ed698557846
-      internalID: 327384624
+      spriteID: 222368b65b6b62e40aeaa45d91bb1541
+      internalID: -38156770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_38
+      name: platform-1
       rect:
         serializedVersion: 2
         x: 91
@@ -935,41 +935,41 @@ TextureImporter:
         width: 561
         height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4aadf75ade601484f984d226f2e6dc63
-      internalID: 2082918173
+      spriteID: 846a52187af1e7748a7f080798bce04b
+      internalID: 1699508710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_39
+      name: platform-2
       rect:
         serializedVersion: 2
-        x: 707
+        x: 711
         y: 308
         width: 325
         height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 036efe0f1c83a3e4eb4b8e5ed43f1c61
-      internalID: -2121289942
+      spriteID: 22ca098e07a2233478c3c22a43d871cc
+      internalID: 2140352949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_40
+      name: floor
       rect:
         serializedVersion: 2
         x: 1158
@@ -977,20 +977,20 @@ TextureImporter:
         width: 579
         height: 177
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40096843644e3474db5e764f5b9bad9f
-      internalID: -1457016258
+      spriteID: b1adeaf2dc467d44baa16f32b0be10e5
+      internalID: -1746558010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite-atlas_41
+      name: platform-3
       rect:
         serializedVersion: 2
         x: 92
@@ -998,14 +998,14 @@ TextureImporter:
         width: 1312
         height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94a761770f2b42147bce6b0a1cb2f064
-      internalID: -1803590017
+      spriteID: d5d9c0b6fea7c82488da118fb4e07778
+      internalID: 515556885
       vertices: []
       indices: 
       edges: []
@@ -1021,48 +1021,48 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sprite-atlas_0: 444466414
-      sprite-atlas_1: 1727076286
-      sprite-atlas_10: 1529249170
-      sprite-atlas_11: 431819494
-      sprite-atlas_12: 152095873
-      sprite-atlas_13: 2019533995
-      sprite-atlas_14: -1185869899
-      sprite-atlas_15: -1373214152
-      sprite-atlas_16: 240673214
-      sprite-atlas_17: -113237528
-      sprite-atlas_18: -1799058529
-      sprite-atlas_19: 1169049624
-      sprite-atlas_2: 1556088759
-      sprite-atlas_20: -1415268082
-      sprite-atlas_21: -1407177761
-      sprite-atlas_22: 148512834
-      sprite-atlas_23: 353637562
-      sprite-atlas_24: -580162193
-      sprite-atlas_25: 1040544902
-      sprite-atlas_26: -649510650
-      sprite-atlas_27: -1323882595
-      sprite-atlas_28: -648901931
-      sprite-atlas_29: -939980564
-      sprite-atlas_3: -330439771
-      sprite-atlas_30: 115238752
-      sprite-atlas_31: 1340173249
-      sprite-atlas_32: 2116363041
-      sprite-atlas_33: -2095850790
-      sprite-atlas_34: -24443149
-      sprite-atlas_35: -567141928
-      sprite-atlas_36: -999506168
-      sprite-atlas_37: 327384624
-      sprite-atlas_38: 2082918173
-      sprite-atlas_39: -2121289942
-      sprite-atlas_4: 1476878024
-      sprite-atlas_40: -1457016258
-      sprite-atlas_41: -1803590017
-      sprite-atlas_5: -1633572656
-      sprite-atlas_6: -1008199097
-      sprite-atlas_7: -342762819
-      sprite-atlas_8: 1155280144
-      sprite-atlas_9: 375836276
+      background: -38156770
+      coin-1: 88971109
+      coin-2: 1126237370
+      coin-3: -1226887620
+      coin-4: 149797552
+      coin-5: 280355095
+      coin-6: -695229241
+      coin-7: -2022452763
+      coin-8: 399688457
+      die-1: 1630044779
+      die-2: 1200693398
+      die-3: -1810418280
+      enemy-1: -1819195843
+      enemy-2: 820579471
+      enemy-3: -6246047
+      floor: -1746558010
+      jump-1: 1352898999
+      jump-2: 720557231
+      jump-3: 1314101973
+      jump-4: -129671538
+      jump-5: -1013402489
+      jump-6: 1853624568
+      platform-1: 1699508710
+      platform-2: 2140352949
+      platform-3: 515556885
+      poison: -655973825
+      rock-1: 1265100085
+      rock-2: 1149403642
+      rock-3: -1770271094
+      run-1: -743822830
+      run-2: 454438189
+      run-3: -501308238
+      run-4: -1264770840
+      run-5: 1818129840
+      sprite-atlas_0: -1115184714
+      sprite-atlas_17: -1244994584
+      sprite-atlas_3: -536451050
+      sprite-atlas_4: 689373655
+      sprite-atlas_6: 717045795
+      sprite-atlas_7: -1000006512
+      sprite-atlas_8: 1387805336
+      sprite-atlas_9: 118822571
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
