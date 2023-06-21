@@ -99,14 +99,14 @@ public class PlayerController : MonoBehaviour {
                              1.5f,                     //se asigna una longitud
                              groundMask))              //se verifica que toque el ground mask
         {
-            //TODO: programar logica de contacto con el suelo
-            //animator.enabled = true;
             
+            //animator.enabled = true;
+            //GameManager.sharedInstance.currentGameState = GameState.inGame;
             return true;
         }
         else
         {
-            //TODO:programar logica de no contacto con el suelo 
+            
             //animator.enabled = false; // codigo para desactivar o pausar una animacion
          
             return false;

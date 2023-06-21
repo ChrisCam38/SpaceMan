@@ -36,25 +36,28 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            StartGame();
+        };
     }
 
     //Metodo encargado de iniciar la partida
-    public void startGame() 
+    public void StartGame() 
     {
-   
+        SetGameState(GameState.inGame);
     }
 
     //Metodo encargado de finalizar la partida
     public void GameOver()
     {
-
+        SetGameState(GameState.gameOver);
     }
 
     //Metodo para volver al menu
     public void BackToMenu()
     {
-
+        SetGameState(GameState.menu);
     }
 
     //Metodo encargado de modificar el estado del juego, ej: cambia de menu --> estado de juego 
