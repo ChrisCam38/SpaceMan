@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         //code for detect if the spacebar or right mouse click bottom is pressed
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (Input.GetButtonDown("Jump"))
         {
             Jump();
 
@@ -81,10 +81,14 @@ public class PlayerController : MonoBehaviour {
     //Instruction that make the player jump
     void Jump()
     {
-        if (IsTouchingTheGround())
+        if(GameManager.sharedInstance.currentGameState == GameState.inGame)
         {
-            playerRigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse); //se aplica fuerza a vector que indica la direccion a la que se quiere mover el personaje
-        }                                                                            //Impulse aplica una fuerza de tipo inmediato y no constante
+            if (IsTouchingTheGround())
+            {
+                playerRigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse); //se aplica fuerza a vector que indica la direccion a la que se quiere mover el personaje
+            }                                                                            //Impulse aplica una fuerza de tipo inmediato y no constante
+        }
+        
     }
 
         
