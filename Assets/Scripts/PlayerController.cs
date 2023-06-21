@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour {
     //Instruction that make the player jump
     void Jump()
     {
-        if(GameManager.sharedInstance.currentGameState == GameState.inGame)
+        if(GameManager.sharedInstance.currentGameState == GameState.inGame) //Solo salta el personaje si estamos en el estado inGame
         {
             if (IsTouchingTheGround())
             {
@@ -127,5 +127,11 @@ public class PlayerController : MonoBehaviour {
         facingRight = !facingRight;
     }
 
+    //METODO PARA MATAR AL PERSONAJE
+    public void Die()
+    {
+        this.animator.SetBool(STATE_ALIVE, false); //false asignado a la variable de vida
+        GameManager.sharedInstance.GameOver();
+    }
 
 }
