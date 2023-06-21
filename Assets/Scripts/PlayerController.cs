@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour {
     public LayerMask groundMask;
     private Animator animator;
 
+    Vector3 startPosition;
+
 
     private const string STATE_ALIVE = "isAlive";
     private const string STATE_ON_THE_GROUND = "isOnTheGround";
@@ -25,10 +27,20 @@ public class PlayerController : MonoBehaviour {
     }
     // Start is called before the first frame update
     void Start() {
+        
+
+        startPosition = this.transform.position; //Desde un inicio la posicion del personaje se guarda en la variable startPosition
+
+    }
+
+    //Metodo para reiniciar  la posicion del personaje
+    public void StartGame()
+    {
         animator.SetBool(STATE_ALIVE, true);
         animator.SetBool(STATE_ON_THE_GROUND, true);
-       
 
+        this.transform.position = startPosition;
+        this.playerRigidbody2D.velocity = Vector2.zero;
     }
 
     // Update is called once per frame
@@ -58,10 +70,14 @@ public class PlayerController : MonoBehaviour {
 
         inputHorizontal = Input.GetAxis("Horizontal"); //variable que almacena la direccion horizontal
 
-        if (inputHorizontal != 0)
+        if (GameManager.sharedInstance.currentGameState == GameState.inGame)
         {
-            playerRigidbody2D.AddForce(new Vector2(inputHorizontal * runningSpeed, 0f));
+            if (inputHorizontal != 0)
+            {
+                playerRigidbody2D.AddForce(new Vector2(inputHorizontal * runningSpeed, 0f));
+            }
         }
+            
 
         //VOLTEAR EL PERSONAJE
 

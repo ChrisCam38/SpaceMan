@@ -16,9 +16,11 @@ public class KillZone : MonoBehaviour
         
     }
 
+    //DETECCION DEL TRIGGER DEL COLLIDER DE LA KILLZONE
+
     void OnTriggerEnter2D (Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if(collision.tag == "Player")  //Si el elemento que colisiona tiene la etiqueta player
         {
             PlayerController controller = 
                 collision.GetComponent<PlayerController>();
