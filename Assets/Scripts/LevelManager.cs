@@ -32,11 +32,36 @@ public class LevelManager : MonoBehaviour
         
     }
 
-    public void AddLevelBlock()
+    public void AddLevelBlock() //Metodo que agrega levelblocks
     {
+        int ramdomIdx = Random.Range(0, allTheLevelBlocks.Count); //Generacion numero aleatorio entre 0 y el maximo disponible dentro de los levelblocks
 
+        LevelBlock block;
+
+        Vector3 spawnPosition = Vector3.zero;
+
+        if (currentLevelBlocks.Count == 0)
+        {
+            block = Instantiate(allTheLevelBlocks[0]);
+
+            spawnPosition = levelStartPosition.position; // Se iguala con la posición inicial
+
+        }
+        else
+        {
+            block = Instantiate(allTheLevelBlocks[ramdomIdx]);
+            spawnPosition = currentLevelBlocks[currentLevelBlocks.Count-1].exitPoint.position;
+
+        }
+
+        block.transform.SetParent(this.transform, false);
+
+        Vector3 correction = new Vector3(spawnPosition.x - block.startPoint.position.x,
+                                        spawnPosition.y - block.startPoint.position.y, 0);
+
+        block.transform.position = correction;
+        currentLevelBlocks.Add(block);
     }
-
     public void RemoveLevelBlock()
     {
 
